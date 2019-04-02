@@ -25,7 +25,7 @@ function initClient() {
   gapi.client
     .init({
       discoveryDocs: DISCOVERY_DOCS,
-      clientID: CLIENT_ID,
+      clientId: CLIENT_ID,
       scope: SCOPES
     })
     .then(() => {
